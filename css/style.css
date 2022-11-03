@@ -12,9 +12,11 @@
 }
 .modal-footer a{
     text-decoration: none;
+    color: #B53471;
 }
 .modal-footer a:hover{
     text-decoration: underline;
+    color: #B53471;
 }
 body{    
     background-image: url(../img/home-banner.png);
@@ -63,7 +65,13 @@ body{
     transition: all 0.1s ease;
 }
 .social-links li{
-    display: inline-block;   
+    display: inline-block; 
+    margin-right: 1%;  
+}
+.social-links li a{
+    font-size: 2.5rem;
+    color:#57606f;
+
 }
 @media screen and (max-width:992px) {    
     .filter-items{
